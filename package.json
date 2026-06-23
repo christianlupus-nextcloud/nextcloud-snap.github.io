@@ -11,7 +11,11 @@
     "url": "git+https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io.git"
   },
   "license": "CC-BY-SA-4.0",
+  "author": "Christian Wolf <github@christianwolf.email>",
   "scripts": {
+    "hugo": "hugo-extended",
+    "new": "hugo-extended new content",
+    "server": "hugo-extended server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
