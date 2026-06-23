@@ -1,0 +1,23 @@
+{
+  "name": "nextcloud-snap.github.io",
+  "version": "1.0.0",
+  "description": "This is additional documentation for the snap deployment of Nextcloud.",
+  "homepage": "https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.163.3"
+  }
+}
