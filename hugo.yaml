@@ -16,7 +16,7 @@ menu:
     #   params:
     #     type: search
     - name: GitHub
-      weight: 5
+      weight: 100
       # url: "https://github.com/nextcloud-snap/nextcloud-snap.github.io"
       url: "https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io"
       params:
