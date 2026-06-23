@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/christianlupus-nextcloud/nextcloud-snap.github.io.git"
   },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "license": "CC-BY-SA-4.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
