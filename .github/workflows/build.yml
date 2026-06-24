@@ -1,0 +1,64 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+name: Build new version
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+
+# Only use the latst build in case multiple are merged in quick succession
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.0
+      - name: Cache NPM dependencies
+        uses: actions/cache@v6.0.0
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Get URL of pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: url
+        run: |
+          {
+            echo "URL<<EOF"
+            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+          TZ: Europe/Berlin
+        run: |
+          npm run build -- \
+            --baseURL "${{ steps.url.outputs.URL }}"
+
+      - name: Deploy to pages
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        with:
+          folder: ./public
+          clean-exclude: pr-preview/
+          force: false

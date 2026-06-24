@@ -13,6 +13,7 @@
   "license": "CC-BY-SA-4.0",
   "author": "Christian Wolf <github@christianwolf.email>",
   "scripts": {
+    "build": "hugo-extended --gc --minify",
     "hugo": "hugo-extended",
     "new": "hugo-extended new content",
     "server": "hugo-extended server",

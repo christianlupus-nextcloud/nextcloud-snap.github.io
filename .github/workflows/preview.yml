@@ -1,0 +1,65 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency:
+  group: preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    name: Deploy preview of PR
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Cache NPM dependencies
+        uses: actions/cache@v6.0.0
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Get URL of pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: url
+        run: |
+          {
+            echo "URL<<EOF"
+            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url" | sed 's,/*$,,'
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Install the dependencies
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: npm ci
+
+      - name: Build preview
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: |
+          echo "Using base URL ${{ steps.url.outputs.URL }}"
+          npm run build -- \
+            --environment stage \
+            --baseURL "${{ steps.url.outputs.URL }}/pr-preview/pr-${{ github.event.number }}"
+
+      - name: Drop .nojekyll for previews
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: rm public/.nojekyll
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./public/
