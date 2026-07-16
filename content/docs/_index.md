@@ -7,7 +7,7 @@ menu:
   main:
     name: Documentation
     pageRef: /docs
-    weight: 1
+    weight: 2
 ---
 
 Foo bas bar baz
