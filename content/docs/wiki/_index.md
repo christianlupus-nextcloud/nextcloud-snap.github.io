@@ -1,6 +1,5 @@
 ---
-date: "2026-07-16T20:42:18+02:00"
-draft: false
-title: "Wiki"
-weight: 99
+date: '2026-07-16T21:03:33+02:00'
+draft: true
+title: 'Wiki'
 ---
