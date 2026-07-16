@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:24+02:00'
-draft: true
+draft: false
 title: 'Configure Config.php'
 ---
 <h1 align="center">PHP configuration options</h1>

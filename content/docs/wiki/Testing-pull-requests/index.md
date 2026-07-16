@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:38+02:00'
-draft: true
+draft: false
 title: 'Testing Pull Requests'
 ---
 :warning: **Anyone can create a pull request**. Make sure you trust the author and/or the changes made by the author before installing a snap automatically built from the pull request. :warning:

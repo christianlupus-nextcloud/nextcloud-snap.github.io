@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:37+02:00'
-draft: true
+draft: false
 title: 'Network_ipv6‐ipv4_CGN'
 ---
 # Network

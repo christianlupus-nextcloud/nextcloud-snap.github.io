@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:55+02:00'
-draft: true
+draft: false
 title: 'Snap or VM?'
 ---
 Some people are wondering when they should prefer the snap over the VM or even Dockers which are available from other repositories.

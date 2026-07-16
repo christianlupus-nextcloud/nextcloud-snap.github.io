@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:03+02:00'
-draft: true
+draft: false
 title: 'Nextcloud Snap_Snap Confinement'
 ---
 # Snap confinement in Nextcloud-snap 

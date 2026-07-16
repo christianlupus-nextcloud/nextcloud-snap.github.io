@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:56+02:00'
-draft: true
+draft: false
 title: 'Develop and Contribute'
 ---
 # Nextcloud Snap Contribution Guide

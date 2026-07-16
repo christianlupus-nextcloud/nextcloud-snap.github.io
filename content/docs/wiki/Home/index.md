@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:48+02:00'
-draft: true
+draft: false
 title: 'Home'
 ---
 <p align="center" width="100%">

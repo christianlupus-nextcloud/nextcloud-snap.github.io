@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:39+02:00'
-draft: true
+draft: false
 title: 'OCC Management Console'
 ---
 <h1 align="center">Nextcloud snap OCC management console</h1>

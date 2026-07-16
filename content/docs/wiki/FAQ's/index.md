@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:54+02:00'
-draft: true
+draft: false
 title: 'FAQ''s'
 ---
 <h1 align="center">Nextcloud snap FAQ's</h1>

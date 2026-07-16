@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:05+02:00'
-draft: true
+draft: false
 title: 'Putting the Snap Behind a Reverse Proxy'
 ---
 <h1 align="center">Reverse proxy configuration</h1>

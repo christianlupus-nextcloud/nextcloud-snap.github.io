@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:00+02:00'
-draft: true
+draft: false
 title: 'Change Tmp Directory Location'
 ---
 # Change Nextcloud snap tmp directory location

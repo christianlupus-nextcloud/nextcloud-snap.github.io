@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:13+02:00'
-draft: true
+draft: false
 title: 'Migrating From Nextcloud Snap to Nextcloud Server'
 ---
 # Migrating from nextcloud-snap to Nextcloud server

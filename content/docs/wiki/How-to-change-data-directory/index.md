@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:41+02:00'
-draft: true
+draft: false
 title: 'How to Change Data Directory'
 ---
 ## How-to change data directory by r00ta

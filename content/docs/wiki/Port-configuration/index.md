@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:20+02:00'
-draft: true
+draft: false
 title: 'Port Configuration'
 ---
 <h1 align="center">HTTP and HTTPS port configuration</h1>

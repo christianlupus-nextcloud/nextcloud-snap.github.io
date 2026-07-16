@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:40+02:00'
-draft: true
+draft: false
 title: 'How to Connect to the Nextcloud Box With SSH'
 ---
 Sometimes you need to log into the box' command line interface over a secure shell. This can enable you to install snaps or roll back changes or set up TLS (https) certificates.

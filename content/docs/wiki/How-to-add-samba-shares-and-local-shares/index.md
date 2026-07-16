@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:15+02:00'
-draft: true
+draft: false
 title: 'How to Add Samba Shares and Local Shares'
 ---
 ## Add network and local shares to Nextcloud snap as external storage

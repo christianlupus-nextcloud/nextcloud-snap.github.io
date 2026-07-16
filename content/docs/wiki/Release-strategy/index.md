@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:25+02:00'
-draft: true
+draft: false
 title: 'Release Strategy'
 ---
 This snap makes the following channels available:

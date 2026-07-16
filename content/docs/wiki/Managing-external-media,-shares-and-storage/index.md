@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:50+02:00'
-draft: true
+draft: false
 title: 'Managing External Media, Shares and Storage'
 ---
 <h1 align="center">Managing external media, shares and storage</h1>

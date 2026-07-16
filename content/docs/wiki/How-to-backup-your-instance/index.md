@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:22+02:00'
-draft: true
+draft: false
 title: 'How to Backup Your Instance'
 ---
 The nextcloud snap includes an utility to backup and restore your instance. Right now it can export:

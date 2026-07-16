@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:28+02:00'
-draft: true
+draft: false
 title: 'How to Resolve Richdocuments Boot Error'
 ---
 # resolve richdocuments `boot error` and `unklink` in Nextcloud snap logs

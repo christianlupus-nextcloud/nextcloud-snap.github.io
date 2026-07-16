@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:47+02:00'
-draft: true
+draft: false
 title: 'Why Ubuntu Is the Only Supported Distro'
 ---
 First of all, we think the snap technology is amazing-- in fact, we helped create it. We maintain (and ourselves use) this snap because of it. But we don't care how cool technology is if it puts you, our dear users, at risk.

@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:24+02:00'
-draft: true
+draft: false
 title: 'Installing the Snap in Writable Mode'
 ---
 The snap is by definition read-only, but some times it's useful to poke at the contents of it to see what's going on. If we want to do that, there are some hoops we can jump through to get there. **Note that this is not recommended for production use.** The snap won't be as secure and will no longer update if you do this. This is handy for development/experimentation, nothing more.

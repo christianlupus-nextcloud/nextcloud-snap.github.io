@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:32+02:00'
-draft: true
+draft: false
 title: 'Nextcloud Snap Security Brute Force Protection'
 ---
 # Managing security brute force protection and throttling in Nextcloud snap

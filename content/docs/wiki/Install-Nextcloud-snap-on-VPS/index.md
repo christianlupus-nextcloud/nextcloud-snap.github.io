@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:06+02:00'
-draft: true
+draft: false
 title: 'Install Nextcloud Snap on VPS'
 ---
 # Install Nextcloud snap on VPS

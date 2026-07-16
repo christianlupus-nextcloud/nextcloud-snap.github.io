@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:31+02:00'
-draft: true
+draft: false
 title: 'Configure Nextcloud Office, Euro Office for Nextcloud Snap With Docker'
 ---
 # Nextcloud Office -- Euro Office for Nextcloud snap with Docker

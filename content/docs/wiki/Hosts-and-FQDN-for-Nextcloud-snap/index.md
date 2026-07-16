@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:58+02:00'
-draft: true
+draft: false
 title: 'Hosts and FQDN for Nextcloud Snap'
 ---
 <h1 align="center">Hosts & FQDN configuration</h1>

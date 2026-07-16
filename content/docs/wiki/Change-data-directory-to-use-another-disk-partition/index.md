@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:42+02:00'
-draft: true
+draft: false
 title: 'Change Data Directory to Use Another Disk Partition'
 ---
 # Prerequisites

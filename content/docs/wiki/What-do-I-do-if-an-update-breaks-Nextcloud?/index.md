@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:17+02:00'
-draft: true
+draft: false
 title: 'What Do I Do if an Update Breaks Nextcloud?'
 ---
 Sorry you're in this situation! Don't worry though, the snap is designed with this scenario in mind, and this page will walk you through what you need to do.

@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:36+02:00'
-draft: true
+draft: false
 title: 'Developer FAQ'
 ---
 **Q: Why aren't you using MariaDB?**

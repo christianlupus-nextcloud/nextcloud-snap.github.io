@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:02+02:00'
-draft: true
+draft: false
 title: 'Wiki Change Data Directory'
 ---
 # Change Nextcloud snap data directory

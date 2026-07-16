@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:19+02:00'
-draft: true
+draft: false
 title: 'Upstream Nextcloud Issues'
 ---
 # Upstream Nextcloud 

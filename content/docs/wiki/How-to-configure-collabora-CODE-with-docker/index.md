@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:11+02:00'
-draft: true
+draft: false
 title: 'How to Configure Collabora CODE With Docker'
 ---
 # How to configure Collabora CODE with docker for Nextcloud snap

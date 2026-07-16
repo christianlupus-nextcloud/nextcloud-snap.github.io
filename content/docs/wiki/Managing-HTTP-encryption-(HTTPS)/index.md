@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:29+02:00'
-draft: true
+draft: false
 title: 'Managing HTTP Encryption (HTTPS)'
 ---
 <h1 align="center">Nextcloud snap HTTP encryption (HTTPS)</h1>

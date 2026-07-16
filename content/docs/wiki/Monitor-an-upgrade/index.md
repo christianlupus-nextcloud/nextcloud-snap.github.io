@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:49+02:00'
-draft: true
+draft: false
 title: 'Monitor an Upgrade'
 ---
 _The following is adapted from [kyrofa's blog](https://kyrofa.com/posts/monitoring-a-nextcloud-snap-upgrade/)_

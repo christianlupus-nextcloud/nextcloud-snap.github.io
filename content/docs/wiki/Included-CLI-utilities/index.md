@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:23+02:00'
-draft: true
+draft: false
 title: 'Included CLI Utilities'
 ---
 There are a few CLI utilities included:

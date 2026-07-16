@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:08+02:00'
-draft: true
+draft: false
 title: 'Management Console'
 ---
 # Managing Nextcloud-snap with Nextcloud management console

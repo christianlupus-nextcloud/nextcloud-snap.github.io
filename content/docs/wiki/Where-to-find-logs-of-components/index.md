@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:21+02:00'
-draft: true
+draft: false
 title: 'Where to Find Logs of Components'
 ---
 Logs for **Nextcloud** can be found at:

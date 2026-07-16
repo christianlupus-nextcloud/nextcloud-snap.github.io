@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:12+02:00'
-draft: true
+draft: false
 title: 'Managing Automatic Updates'
 ---
 <h1 align="center">Managing automatic Nextcloud snap updates</h1>

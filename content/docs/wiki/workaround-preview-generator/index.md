@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:46+02:00'
-draft: true
+draft: false
 title: 'Workaround Preview Generator'
 ---
 assuming the [preview generator app]( https://apps.nextcloud.com/apps/previewgenerator) is installed in your instance

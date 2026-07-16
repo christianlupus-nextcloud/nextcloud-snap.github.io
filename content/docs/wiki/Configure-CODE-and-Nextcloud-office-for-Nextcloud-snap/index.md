@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:34+02:00'
-draft: true
+draft: false
 title: 'Configure CODE and Nextcloud Office for Nextcloud Snap'
 ---
 <h1 align="center">Collabora CODE & Nextcloud Office configuration</h1>

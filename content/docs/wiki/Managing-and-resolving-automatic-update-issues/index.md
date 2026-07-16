@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:02:09+02:00'
-draft: true
+draft: false
 title: 'Managing and Resolving Automatic Update Issues'
 ---
 ## Resolve failed automatic update issues in Nextcloud snap

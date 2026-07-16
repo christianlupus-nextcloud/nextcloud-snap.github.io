@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:26+02:00'
-draft: true
+draft: false
 title: 'How To''s for Nextcloud Snap'
 ---
 # Nextcloud snap how to's

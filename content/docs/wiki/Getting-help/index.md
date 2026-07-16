@@ -1,6 +1,6 @@
 ---
 date: '2026-07-16T21:01:18+02:00'
-draft: true
+draft: false
 title: 'Getting Help'
 ---
 <h1 align="center">Getting help</h1>
